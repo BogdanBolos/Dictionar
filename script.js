@@ -1,4 +1,4 @@
-document.getElementById("add").onclick = function() {
+function addWord() {
     var text = document.getElementById("input").value;
     var li = "<li>" + text + "</li>";
     if (checkWord(text) == 1) {
